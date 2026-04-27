@@ -6,6 +6,14 @@ import streamlit.components.v1 as components
 
 
 
+# --- BLOC DE VALIDATION GOOGLE (MÉTHODE HTML) ---
+components.html("""
+    <meta name="google-adsense-account" content="ca-pub-1620667805227992">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992" crossorigin="anonymous"></script>
+""", height=0)
+# --
+
+
 # 1. CONFIGURATION
 st.set_page_config(page_title="Giann Terminal - Finance Libre", layout="wide")
 
