@@ -6,17 +6,19 @@ import streamlit.components.v1 as components
 
 
 
-st.set_page_config(page_title="Giann Terminal", layout="wide")
+# 1. CONFIGURATION (Doit être la toute première commande Streamlit)
+st.set_page_config(page_title="Giann Terminal - Finance Libre", layout="wide")
 
-# NOUVEAU BLOC DE FORCE
+# --- BLOC DE FORCE ADSENSE (EXTRAIT DE CODE) ---
 components.html("""
-    <head>
-        <meta name="google-adsense-account" content="ca-pub-1620667805227992">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992" crossorigin="anonymous"></script>
-    </head>
-    <body style="background-color: transparent;">
-    </body>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992" crossorigin="anonymous"></script>
 """, height=0)
+# -----------------------------------------------
+
+
+
+
+
 
 
 # 1. CONFIGURATION
