@@ -139,3 +139,11 @@ with tab3:
 with tab4:
     st.subheader("🎓 Masterclass")
     st.write("Contenu éducatif gratuit financé par la publicité.")
+
+
+st.divider()
+st.caption("""
+    © 2026 Giann Terminal | Données fournies par Yahoo Finance. 
+    Avertissement : Les simulations et analyses ne constituent pas des conseils en investissement. 
+    Le trading comporte des risques de perte en capital.
+""")
