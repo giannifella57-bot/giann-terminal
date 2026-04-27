@@ -19,11 +19,6 @@ components.html("""
 
 
 
-
-
-# 1. CONFIGURATION
-st.set_page_config(page_title="Giann Terminal - Finance Libre", layout="wide")
-
 # CSS pour le look Terminal
 st.markdown("""
     <style>
