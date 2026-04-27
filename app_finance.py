@@ -30,9 +30,9 @@ with st.sidebar:
     
     st.divider()
     
-   # EMPLACEMENT RÉEL GOOGLE ADSENSE
+# EMPLACEMENT RÉEL GOOGLE ADSENSE
     st.write("📢 **Sponsor**")
-    components.html(f"""
+    components.html("""
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992"
              crossorigin="anonymous"></script>
         <ins class="adsbygoogle"
@@ -42,7 +42,7 @@ with st.sidebar:
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
         <script>
-             (adsbygoogle = window.adsbygoogle || []).push({{}});
+             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     """, height=300)
 
