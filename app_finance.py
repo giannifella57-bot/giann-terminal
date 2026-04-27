@@ -28,14 +28,21 @@ with st.sidebar:
     
     st.divider()
     
-    # EMPLACEMENT PUB 1 : Barre latérale
+   # EMPLACEMENT RÉEL GOOGLE ADSENSE
     st.write("📢 **Sponsor**")
-    components.html("""
-        <div style="background-color: #1e2130; color: #4CAF50; padding: 20px; text-align: center; border: 1px dashed #4CAF50; border-radius: 10px;">
-            <p style="margin: 0; font-size: 12px; color: gray;">PUB ADSENSE ICI</p>
-            <p style="margin: 5px 0 0 0; font-weight: bold;">Annonce Partenaire</p>
-        </div>
-    """, height=120)
+    components.html(f"""
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992"
+             crossorigin="anonymous"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1620667805227992"
+             data-ad-slot="XXXXXXXXXX"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({{}});
+        </script>
+    """, height=300)
 
 # 3. NAVIGATION PAR ONGLETS (TOUT EST DÉBLOQUÉ)
 tab1, tab2, tab3, tab4 = st.tabs(["🔍 Analyse Marché", "⚖️ Comparateur", "🔮 Simulation", "📚 Éducation"])
