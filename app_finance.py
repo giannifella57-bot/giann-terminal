@@ -46,7 +46,7 @@ with tab1:
     
     if ticker:
         data = yf.Ticker(ticker)
-        hist = data.history(period="1y")
+        hist = data.history(period="1y", interval="1d")
         
         if not hist.empty:
             prix_actuel = hist['Close'].iloc[-1]
