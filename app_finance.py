@@ -4,6 +4,8 @@ import plotly.graph_objects as go
 import pandas as pd
 import streamlit.components.v1 as components
 
+<meta name="google-adsense-account" content="ca-pub-1620667805227992">
+
 # 1. CONFIGURATION
 st.set_page_config(page_title="Giann Terminal - Finance Libre", layout="wide")
 
