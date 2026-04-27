@@ -11,7 +11,8 @@ st.set_page_config(page_title="Giann Terminal - Finance Libre", layout="wide")
 
 # --- BLOC DE FORCE ADSENSE (EXTRAIT DE CODE) ---
 components.html("""
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992" crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1620667805227992"
+     crossorigin="anonymous"></script>
 """, height=0)
 # -----------------------------------------------
 
